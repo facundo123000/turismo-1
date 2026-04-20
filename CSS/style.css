@@ -3,30 +3,19 @@ body{
 
 }
 
-.flex-container{
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
-justify-content: space-around;
-align-items: center;
-height: 50px;
-background-color: rgb(255, 187, 0);
 
-}
 
 .flex-body{
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-min-height: 100vh;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
 
 }
 
 .flex-container{
 display: flex;
 flex-direction: row;
-flex-wrap: nowrap;
 justify-content: space-around;
 align-items: center;
 background-color: rgb(171, 192, 89);
@@ -44,6 +33,16 @@ background-color: rgb(255, 187, 0);
 
 }
 
+.flex-container-main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+  
+    
+}
+
+
 .grid-galerid{
 display: grid;
 grid-template-columns: 400px 400px;
@@ -55,4 +54,8 @@ width: 400px;
 height: 400px;
 
 
+}
+.imagendestino{
+    height: 300px;
+    width: auto;
 }
